@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-commerce Website</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <h1 class="main-header__title">안녕하세요, 다해의 도서관입니다.</h1>
+        <ul class="main-header__item-list">
+          <li class="main-header__item">
+            <a class="active" href="index.html">메인페이지</a>
+          </li>
+          <li class="main-header__item">
+            <a class="active" href="login.html">로그인</a>
+          </li>
+          <li class="main-header__item"><a href="signup.html">회원가입</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <form action="">
+          <label for="category">카테고리를 선택하세요</label>
+          <br />
+          <select name="categories" class="main-section__category">
+            <option value="all">All</option>
+            <option value="urban">도시공학</option>
+            <option value="cs">컴퓨터공학</option>
+            <option value="transportation">교통공학</option>
+            <option value="christian">기독교</option>
+          </select>
+          <br />
+          <label for="search">검색어를 입력하세요</label>
+          <br />
+          <input
+            class="main-section__searchText"
+            type="text"
+            placeholder="e.g. 도시공학"
+          />
+          <br />
+          <label for="sorting">정렬 방식을 선택하세요</label>
+          <br />
+          <select name="sorting" class="main-section__sorting">
+            <option value="all">기본</option>
+            <option value="abc">가나다순</option>
+            <option value="low-price">저가순</option>
+            <option value="high-price">고가순</option>
+          </select>
+          <br />
+          <input type="submit" class="main-section__searchBtn" />
+        </form>
+      </aside>
+      <section class="main-section">
+        <h2 class="main-section__title">도서 목록</h2>
+        <div class="main-section__grid"></div>
+        <p id="msg-loading">....... 로딩중 .......</p>
+      </section>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

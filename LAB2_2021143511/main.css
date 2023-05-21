@@ -1,0 +1,97 @@
+body {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  margin: 0;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #e7d800;
+  text-decoration: underline;
+}
+
+.main-header {
+  background-color: #003876;
+  padding-top: 20px;
+}
+
+.main-header__nav {
+  border-bottom: 1px solid darkslategrey;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.main-header__title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.main-header__item-list {
+  padding: 0;
+  text-align: center;
+}
+
+.main-header__item {
+  display: inline;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+main {
+  padding: 0.5rem 2rem;
+}
+
+.signup-form {
+  position: relative;
+}
+
+.signup-form fieldset {
+  margin: 1rem 0;
+}
+
+.signup-form legend {
+  font-weight: bold;
+}
+
+.signup-form__btn-wrapper {
+  position: absolute;
+  right: 0;
+}
+
+.signup-form__btn {
+  width: 100px;
+  height: 50px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin: 0 5px;
+  padding: 14px 15px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease-in;
+}
+
+.signup-form__btn:hover {
+  opacity: 0.8;
+  scale: 1.05;
+}
+
+.signup-form__btn:first-of-type {
+  background-color: #196bca;
+}
+
+.signup-form__btn:last-of-type {
+  background-color: #ff4e4e;
+}
+
+#register {
+  background-color: #77b700;
+}

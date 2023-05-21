@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-commerce Website</title>
+  </head>
+  <header class="main-header">
+    <nav class="main-header__nav">
+      <span class="main-header__title">
+        도시공학과 쇼핑몰에 오신 것을 환영합니다
+      </span>
+      <ul class="main-header__item-list">
+        <li class="main-header__item">
+          <a class="active" href="login.html">로그인</a>
+        </li>
+        <li class="main-header__item"><a href="signup.html">회원가입</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <form action="" class="signup-form">
+        <fieldset>
+          <legend>회원 정보를 입력하세요</legend>
+          ID :
+          <input
+            type="text"
+            name="userID"
+            placeholder="아이디를 입력하세요"
+            autocomplete="on"
+            required
+          /><br />
+          PW :
+          <input
+            type="password"
+            name="password"
+            placeholder="비밀번호를 입력하세요"
+            required
+          /><br />
+          PW 확인 :
+          <input
+            type="password"
+            name="password-check"
+            placeholder="비밀번호 확인"
+            required
+          /><br />
+        </fieldset>
+        <span class="signup-form__btn-wrapper">
+          <input type="submit" class="signup-form__btn" value="로그인" />
+          <input
+            type="button"
+            class="signup-form__btn"
+            id="register"
+            value="회원가입"
+            onClick="location.href='signup.html'"
+          />
+        </span>
+      </form>
+    </main>
+  </body>
+</html>

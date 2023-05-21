@@ -1,0 +1,196 @@
+[
+  {
+    "title": "심층 학습",
+    "url": "./img/img_1.jpeg",
+    "price": 42000,
+    "type": "cs"
+  },
+  {
+    "title": "인터넷 프로그래밍",
+    "url": "./img/img_2.jpeg",
+    "price": 16000,
+    "type": "cs"
+  },
+  {
+    "title": "Urban Economics, 7th edition",
+    "url": "./img/img_3.jpg",
+    "price": 56000,
+    "type": "urban"
+  },
+  {
+    "title": "데이터마이닝 기법과 응용",
+    "url": "./img/img_4.jpeg",
+    "price": 28000,
+    "type": "cs"
+  },
+  {
+    "title": "스마트시티 에볼루션: 유시티에서 메타버스까지, 도시의 진화",
+    "url": "./img/img_5.jpeg",
+    "price": 20000,
+    "type": "urban"
+  },
+  {
+    "title": "부동산 개발 계획과 실무: 이론, 실무, 사례별 분석",
+    "url": "./img/img_6.jpeg",
+    "price": 45000,
+    "type": "urban"
+  },
+  {
+    "title": "연세대학교 루스채플 이야기",
+    "url": "./img/img_7.jpeg",
+    "price": 10000,
+    "type": "christian"
+  },
+  {
+    "title": "모빌리티 3.0",
+    "url": "./img/img_8.jpeg",
+    "price": 18000,
+    "type": "transportation"
+  },
+  {
+    "title": "심층 학습",
+    "url": "./img/img_1.jpeg",
+    "price": 42000,
+    "type": "cs"
+  },
+  {
+    "title": "인터넷 프로그래밍",
+    "url": "./img/img_2.jpeg",
+    "price": 16000,
+    "type": "cs"
+  },
+  {
+    "title": "Urban Economics, 7th edition",
+    "url": "./img/img_3.jpg",
+    "price": 56000,
+    "type": "urban"
+  },
+  {
+    "title": "데이터마이닝 기법과 응용",
+    "url": "./img/img_4.jpeg",
+    "price": 28000,
+    "type": "cs"
+  },
+  {
+    "title": "스마트시티 에볼루션: 유시티에서 메타버스까지, 도시의 진화",
+    "url": "./img/img_5.jpeg",
+    "price": 20000,
+    "type": "urban"
+  },
+  {
+    "title": "부동산 개발 계획과 실무: 이론, 실무, 사례별 분석",
+    "url": "./img/img_6.jpeg",
+    "price": 45000,
+    "type": "urban"
+  },
+  {
+    "title": "연세대학교 루스채플 이야기",
+    "url": "./img/img_7.jpeg",
+    "price": 10000,
+    "type": "christian"
+  },
+  {
+    "title": "모빌리티 3.0",
+    "url": "./img/img_8.jpeg",
+    "price": 18000,
+    "type": "transportation"
+  },
+
+  {
+    "title": "심층 학습",
+    "url": "./img/img_1.jpeg",
+    "price": 42000,
+    "type": "cs"
+  },
+  {
+    "title": "인터넷 프로그래밍",
+    "url": "./img/img_2.jpeg",
+    "price": 16000,
+    "type": "cs"
+  },
+  {
+    "title": "Urban Economics, 7th edition",
+    "url": "./img/img_3.jpg",
+    "price": 56000,
+    "type": "urban"
+  },
+  {
+    "title": "데이터마이닝 기법과 응용",
+    "url": "./img/img_4.jpeg",
+    "price": 28000,
+    "type": "cs"
+  },
+  {
+    "title": "스마트시티 에볼루션: 유시티에서 메타버스까지, 도시의 진화",
+    "url": "./img/img_5.jpeg",
+    "price": 20000,
+    "type": "urban"
+  },
+  {
+    "title": "부동산 개발 계획과 실무: 이론, 실무, 사례별 분석",
+    "url": "./img/img_6.jpeg",
+    "price": 45000,
+    "type": "urban"
+  },
+  {
+    "title": "연세대학교 루스채플 이야기",
+    "url": "./img/img_7.jpeg",
+    "price": 10000,
+    "type": "christian"
+  },
+  {
+    "title": "모빌리티 3.0",
+    "url": "./img/img_8.jpeg",
+    "price": 18000,
+    "type": "transportation"
+  },
+
+  {
+    "title": "심층 학습",
+    "url": "./img/img_1.jpeg",
+    "price": 42000,
+    "type": "cs"
+  },
+  {
+    "title": "인터넷 프로그래밍",
+    "url": "./img/img_2.jpeg",
+    "price": 16000,
+    "type": "cs"
+  },
+  {
+    "title": "Urban Economics, 7th edition",
+    "url": "./img/img_3.jpg",
+    "price": 56000,
+    "type": "urban"
+  },
+  {
+    "title": "데이터마이닝 기법과 응용",
+    "url": "./img/img_4.jpeg",
+    "price": 28000,
+    "type": "cs"
+  },
+  {
+    "title": "스마트시티 에볼루션: 유시티에서 메타버스까지, 도시의 진화",
+    "url": "./img/img_5.jpeg",
+    "price": 20000,
+    "type": "urban"
+  },
+  {
+    "title": "부동산 개발 계획과 실무: 이론, 실무, 사례별 분석",
+    "url": "./img/img_6.jpeg",
+    "price": 45000,
+    "type": "urban"
+  },
+  {
+    "title": "연세대학교 루스채플 이야기",
+    "url": "./img/img_7.jpeg",
+    "price": 10000,
+    "type": "christian"
+  },
+  {
+    "title": "모빌리티 3.0",
+    "url": "./img/img_8.jpeg",
+    "price": 18000,
+    "type": "transportation"
+  }
+]
