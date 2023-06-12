@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-commerce Website</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <h1 class="main-header__title">안녕하세요, 다해의 도서관입니다.</h1>
+        <ul class="main-header__item-list">
+          <li class="main-header__item">
+            <a class="active" href="../">메인페이지</a>
+          </li>
+          <li class="main-header__item">
+            <a class="active" href="../login">로그인</a>
+          </li>
+          <li class="main-header__item"><a href="../signup">회원가입</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="product-main">
+      <div id="productData"><%= JSON.stringify(product) %></div>
+    </main>
+    <script type="text/javascript" src="/js/product.js"></script>
+  </body>
+</html>
